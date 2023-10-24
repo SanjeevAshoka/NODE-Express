@@ -1,0 +1,11 @@
+
+.parent{
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+}
+.child{
+    background-color: lightblue;
+    padding: 30px;
+    border: 2px solid red;
+}

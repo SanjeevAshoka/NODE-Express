@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid grey;
+    margin: 0 auto;
+    gap: 1vw;
+}
+.containerLeft{
+    border: 1px solid red;
+    border-radius: 3vw;
+    padding:4vw;
+    flex:1;
+}
+.containerRight{
+    border: 1px solid blue;
+    border-radius: 3vw;
+    padding:4vw;
+    flex:1;
+}
+.inpbox{
+    display: flex;
+    flex-direction: column;
+}
+.inp{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin:  1vw 0;
+    padding: 1vw;
+    padding-bottom: 0.4vw;
+    font-size: 1em;
+}
+.inp:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 1vw;
+}
